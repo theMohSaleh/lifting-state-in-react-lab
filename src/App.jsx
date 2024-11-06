@@ -30,7 +30,6 @@ const App = () => {
   // remove from stack based on index, prevents removing multiple items with the same name and color
   const removeFromBurger = (burgerIdx) => {
     const updatedStack = stack.filter((ingredient, index) => index !== burgerIdx)
-
     setStack(updatedStack)
   }
 
